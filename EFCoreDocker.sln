@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreSQLServer", "EFCoreSQLServer\EFCoreSQLServer.csproj", "{3A93F46F-3069-4901-A92D-B32D6663FB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreSQLServer.Tests", "EFCoreSQLServer.Tests\EFCoreSQLServer.Tests.csproj", "{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A93F46F-3069-4901-A92D-B32D6663FB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A93F46F-3069-4901-A92D-B32D6663FB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A93F46F-3069-4901-A92D-B32D6663FB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A93F46F-3069-4901-A92D-B32D6663FB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61909C89-0107-48BD-AA80-69E81655F745}
+	EndGlobalSection
+EndGlobal

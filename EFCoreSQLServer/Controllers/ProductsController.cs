@@ -15,9 +15,22 @@ public class ProductsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
+    public async Task<ActionResult<IEnumerable<Product>>> Products()
     {
         return Ok(await _productRepository.GetProducts());
+    }
+
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<Product>> Product(int id)
+    {
+        var product = await _productRepository.GetProductById(id);
+
+        if (product is null)
+        {
+            return NotFound();
+        }
+
+        return Ok(product);
     }
 
     [HttpPost]

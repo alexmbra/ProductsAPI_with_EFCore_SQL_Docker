@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreSQLServer", "EFCoreSQLServer\EFCoreSQLServer.csproj", "{3A93F46F-3069-4901-A92D-B32D6663FB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreSQLServer.Tests", "EFCoreSQLServer.Tests\EFCoreSQLServer.Tests.csproj", "{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreSQLServer.Tests", "EFCoreSQLServer.Tests\EFCoreSQLServer.Tests.csproj", "{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{77EF485F-FC73-4C10-A44B-594DC8F4AF83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{946ACB00-31AC-4B87-9D2D-E0A4B7123B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EF485F-FC73-4C10-A44B-594DC8F4AF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EF485F-FC73-4C10-A44B-594DC8F4AF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EF485F-FC73-4C10-A44B-594DC8F4AF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EF485F-FC73-4C10-A44B-594DC8F4AF83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

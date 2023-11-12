@@ -1,0 +1,39 @@
+@rootUrl=http://localhost:32033/api/Products
+###@token=your_jwt_token_here
+
+### Get all products
+GET {{rootUrl}}
+###Authorization: Bearer {{token}}
+###
+
+### Get product by ID
+GET {{rootUrl}}/1651317556
+
+###
+
+### Create a new product
+POST {{rootUrl}}
+Content-Type: application/json
+
+{
+  "Name": "New Product",
+  "Price": 19.99,
+  "Description": "This is a new product."
+}
+
+###
+
+### Update a product
+PUT {{rootUrl}}/1651317556
+Content-Type: application/json
+
+{
+  "Name": "Updated Product",
+  "Price": 24.99,
+  "Description": "This product has been updated."
+}
+
+###
+
+### Delete a product
+DELETE {{rootUrl}}/-436503997

@@ -56,7 +56,7 @@ internal class ProductsControllerTests
     public async Task GetProducts_ReturnsOkResult()
     {
         // Act
-        var result = await _controller.GetProduct();
+        var result = await _controller.Products();
 
         // Assert
         Assert.That(result.Result, Is.Not.Null, "Result should not be null");

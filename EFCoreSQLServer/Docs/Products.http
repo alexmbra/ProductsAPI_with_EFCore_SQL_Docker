@@ -1,12 +1,11 @@
 @rootUrl=http://localhost:32033/api/Products
-###@token=your_jwt_token_here
 
 ### Get all products
 GET {{rootUrl}}
 ###Authorization: Bearer {{token}}
 ###
 
-### Get product by ID
+### Get product by ID (Needs to replace the id)
 GET {{rootUrl}}/1651317556
 
 ###
@@ -23,7 +22,7 @@ Content-Type: application/json
 
 ###
 
-### Update a product
+### Update a product  (Needs to replace the id)
 PUT {{rootUrl}}/1651317556
 Content-Type: application/json
 
@@ -35,5 +34,5 @@ Content-Type: application/json
 
 ###
 
-### Delete a product
+### Delete a product  (Needs to replace the id)
 DELETE {{rootUrl}}/-436503997

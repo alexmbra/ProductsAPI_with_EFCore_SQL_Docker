@@ -4,7 +4,6 @@ using EFCoreSQLServer.Controllers;
 using EFCoreSQLServer.Models;
 using EFCoreSQLServer.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreSQLServer.Tests;
